@@ -13,7 +13,7 @@ import 'package:flutter/material.dart';
 
 import 'dart:convert';
 
-Future<String> base64toImage(FFUploadedFile? uploadedImage) async {
+Future<String> Imagetobase64(FFUploadedFile? uploadedImage) async {
   // save uploaded file locally
   if (uploadedImage == null) {
     return "Image non uploader";
